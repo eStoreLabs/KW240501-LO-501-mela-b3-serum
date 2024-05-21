@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html lang="ee">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mela SERUM B3</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.typekit.net/cnc6cbd.css" />
+  <style>
+    @import url("https://use.typekit.net/cnc6cbd.css");
+:root {
+  --es-blue-accent: #009fe3;
+}
+
+/* Locator Web Light */
+@font-face {
+  font-family: "LocatorWeb";
+  src: url("assets/fonts/LocatorWebLight/LocatorWebLight.eot");
+  src: url("assets/fonts/LocatorWebLight/LocatorWebLight.eot?#iefix") format("embedded-opentype"), url("assets/fonts/LocatorWebLight/LocatorWebLight.woff2") format("woff2"), url("assets/fonts/LocatorWebLight/LocatorWebLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+/* Locator Web Medium */
+@font-face {
+  font-family: "LocatorWeb";
+  src: url("assets/fonts/LocatorWebMedium/LocatorWebMedium.eot");
+  src: url("assets/fonts/LocatorWebMedium/LocatorWebMedium.eot?#iefix") format("embedded-opentype"), url("assets/fonts/LocatorWebMedium/LocatorWebMedium.woff2") format("woff2"), url("assets/fonts/LocatorWebMedium/LocatorWebMedium.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@keyframes slidedown {
+  from {
+    opacity: 0;
+    transform: translateY(-32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slideright {
+  from {
+    opacity: 0.3;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slideleft {
+  from {
+    opacity: 0.3;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+body {
+  margin: 0;
+}
+strong {
+  font-weight: 700;
+}
+/* results section */
+/* ingredients section */
+/* usage instructions section */
+/* usage routine (fancy) section */
+/* obligations section */
+#la-roche.la-roche {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 1.2;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  color: #fff;
+  background: #000;
+}
+#la-roche.la-roche img {
+  max-width: 100%;
+}
+#la-roche.la-roche .es-kv {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #000;
+}
+#la-roche.la-roche .es-kv__header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+#la-roche.la-roche .es-kv__brand {
+  animation: slidedown 0.6s ease forwards;
+  animation-delay: 0.3s;
+  max-width: 222px;
+  height: 100%;
+}
+#la-roche.la-roche .es-kv__logo {
+  margin-top: 10px;
+  max-width: 200px;
+  animation: slideleft 0.6s ease forwards;
+}
+#la-roche.la-roche .es-kv__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-top: 0;
+  min-width: 300px;
+  animation: slideright 0.6s ease forwards;
+}
+#la-roche.la-roche .es-kv__text {
+  text-align: right;
+  padding-right: 20px;
+}
+#la-roche.la-roche .es-kv__title {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+#la-roche.la-roche .es-kv__title span {
+  color: #fff;
+}
+#la-roche.la-roche .es-kv__packshot img {
+  max-width: 350px;
+  transition: 500ms ease-in-out;
+}
+#la-roche.la-roche .es-kv__packshot img:hover {
+  scale: 1.3;
+}
+#la-roche.la-roche .es-effects {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-image: url("assets/img/effects-bg.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: initial;
+  height: 420px;
+}
+#la-roche.la-roche .es-effects__title {
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+#la-roche.la-roche .es-effects__icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  gap: 8ch;
+}
+#la-roche.la-roche .es-effects__single {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: flex-start;
+  flex-basis: 12ch;
+}
+#la-roche.la-roche .es-effects__single img {
+  max-width: 40px;
+}
+#la-roche.la-roche .es-effects__text {
+  text-align: center;
+  font-size: 13px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+#la-roche.la-roche .es-features {
+  background-color: #4d237f;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#la-roche.la-roche .es-features__content {
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#la-roche.la-roche .es-features__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+#la-roche.la-roche .es-features__logo {
+  display: block;
+  max-width: 70%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+#la-roche.la-roche .es-features__label-description {
+  display: block;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 10px 15px;
+  background-color: #fff;
+  color: #4d237f;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+#la-roche.la-roche .es-features__description {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.2;
+}
+#la-roche.la-roche .es-results {
+  background-color: #4d237f;
+  padding: 32px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 30%;
+  color: #fff;
+  transition: background-size 300ms ease-in-out;
+}
+#la-roche.la-roche .es-results__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 1;
+  max-width: 25ch;
+  margin: auto;
+  margin-bottom: 40px;
+}
+#la-roche.la-roche .es-results__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 540px;
+}
+#la-roche.la-roche .es-results__single {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 400;
+}
+#la-roche.la-roche .es-results__single::before {
+  display: inline-block;
+  align-self: flex-start;
+  margin-right: 10px;
+  height: 30px;
+  min-width: 40px;
+  content: "";
+  background: url("assets/img/check-icon.png") no-repeat 0 0;
+  background-size: 25px 25px;
+}
+#la-roche.la-roche .es-results__single span {
+  font-weight: bold;
+}
+#la-roche.la-roche .es-results__single strong {
+  display: block;
+  margin-bottom: 5px;
+}
+#la-roche.la-roche .es-results__text {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+  text-transform: none;
+}
+#la-roche.la-roche .es-results__text span {
+  font-size: 16px;
+
+}
+#la-roche.la-roche .es-ingr {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#la-roche.la-roche .es-ingr__title {
+  margin-top: 0;
+  margin-bottom: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+}
+#la-roche.la-roche .es-ingr__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#la-roche.la-roche .es-ingr__single {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-basis: 300px;
+}
+#la-roche.la-roche .es-ingr__single:last-child {
+  margin-bottom: 48px;
+}
+#la-roche.la-roche .es-ingr__main {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 300px;
+  padding: 8px;
+  transition: background-size 300ms ease-in-out;
+}
+#la-roche.la-roche .es-ingr__main:hover {
+  background-size: 105%;
+}
+#la-roche.la-roche .es-ingr__main--1 {
+  background-image: url("assets/img/ingr-1.png");
+}
+#la-roche.la-roche .es-ingr__main--2 {
+  background-image: url("assets/img/ingr-2.png");
+}
+#la-roche.la-roche .es-ingr__main--3 {
+  background-image: url("assets/img/ingr-3.png");
+}
+#la-roche.la-roche .es-ingr__main--4 {
+  background-image: url("assets/img/ingr-4.png");
+}
+#la-roche.la-roche .es-ingr__main--5 {
+  background-image: url("assets/img/ingr-5.png");
+}
+#la-roche.la-roche .es-ingr__main--6 {
+  background-image: url("assets/img/ingr-6.png");
+}
+#la-roche.la-roche .es-ingr__desc {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+}
+#la-roche.la-roche .es-effect {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("assets/img/effect-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -617px -14px;
+}
+#la-roche.la-roche .es-effect__title {
+  text-transform: uppercase;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+}
+#la-roche.la-roche .es-effect__title span {
+  color: #ad75e3;
+  font-weight: bold;
+}
+#la-roche.la-roche .es-effect__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#la-roche.la-roche .es-effect__item {
+  min-width: 90%;
+}
+#la-roche.la-roche .es-effect__item-title {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #4d237f;
+  background: #fff;
+}
+#la-roche.la-roche .es-effect__item-title span {
+  font-size: 50px;
+}
+
+#la-roche.la-roche .es-effect__item-title span sup {
+  font-size: 25px;
+}
+#la-roche.la-roche .es-effect__item-title--light {
+  font-weight: 300;
+  font-size: 20px !important;
+  font-family: Roboto, sans-serif;
+}
+#la-roche.la-roche .es-effect__item-title--light {
+  font-weight: 300;
+  font-size: 20px !important;
+}
+#la-roche.la-roche .es-effect__before-title {
+  font-size: 16px;
+}
+#la-roche.la-roche .es-effect__item-description {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#la-roche.la-roche .es-effect__image {
+  display: block;
+  margin: 0 auto;
+}
+#la-roche.la-roche .es-effect__image-labels {
+  display: flex;
+  justify-content: space-between;
+}
+#la-roche.la-roche .es-use {
+  background-color: #4d237f;
+}
+#la-roche.la-roche .es-use__content {
+  padding: 24px;
+}
+#la-roche.la-roche .es-use__title {
+  margin-bottom: 26px;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#la-roche.la-roche .es-use ol {
+  list-style: none;
+  counter-reset: my-counter;
+  max-width: 600px;
+  font-size: 16px;
+  margin-left: -30px;
+}
+#la-roche.la-roche .es-use ol li {
+  counter-increment: my-counter;
+  margin-bottom: 24px;
+  padding: 0 0 0 16px;
+  line-height: 1.4;
+}
+#la-roche.la-roche .es-use ol li::marker {
+  content: counter(my-counter) ".";
+  font-weight: 400;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+}
+
+#la-roche.la-roche .es-cross:nth-child(2) {
+  align-self: flex-start;
+}
+#la-roche.la-roche .es-cross__mainTitle {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 45px;
+}
+#la-roche.la-roche .es-cross__single {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  max-height: 400px;
+  position: absolute;
+  text-align: left;
+}
+#la-roche.la-roche .es-cross__single img {
+  max-width: 100%;
+  max-height: 100%;
+  height: 500px;
+  transition: 0.4s ease-in-out;
+}
+#la-roche.la-roche .es-cross__single:hover img {
+  transform: scale(1.05);
+}
+#la-roche.la-roche .es-cross__single:hover__link {
+  color: var(--es-blue-accent);
+  background-color: #fff;
+  outline: 2.5px solid var(--es-blue-accent);
+}
+#la-roche.la-roche .es-cross__single--1 {
+  top: 0;
+  left: 100px;
+  z-index: 10;
+}
+#la-roche.la-roche .es-cross__single--1 img {
+  height: 500px;
+}
+#la-roche.la-roche .es-cross__single--2 {
+  top: 200px;
+  right: 36px;
+  z-index: 11;
+}
+#la-roche.la-roche .es-cross__single--2 img {
+  height: 300px;
+}
+#la-roche.la-roche .es-cross__single--3 {
+  bottom: -312px;
+  left: 86px;
+}
+#la-roche.la-roche .es-cross__single--3 img {
+  height: 375px;
+}
+#la-roche.la-roche .es-cross__name {
+  max-width: 16ch;
+  font-size: 18px;
+  margin-top: 0;
+  padding-top: 0;
+  text-transform: uppercase;
+}
+#la-roche.la-roche .es-cross__number {
+  color: #ad75e3;
+  font-weight: bold;
+  font-size: 150px;
+  margin: 0;
+  padding: 0;
+}
+#la-roche.la-roche .es-cross__desc {
+  font-size: 16px;
+  text-transform: none;
+  max-width: 16ch;
+  font-family: Roboto, sans-serif;
+  font-weight: 200;
+}
+#la-roche.la-roche .es-cross__link {
+  padding: 5px 10px;
+  background-color: #ad75e3;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 20px 0;
+  text-transform: none;
+  transition: 0.5s ease;
+}
+#la-roche.la-roche .es-obligations {
+  margin-top: 100px;
+}
+#la-roche.la-roche .es-obligations__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-family: "LocatorWeb";
+  padding-top: 100px;
+}
+#la-roche.la-roche .es-obligations__ctn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#la-roche.la-roche .es-obligations__single {
+  width: 45%;
+  min-width: 300px;
+  height: 230px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  margin: 3.5px;
+}
+
+#la-roche.la-roche .es-cross__number {
+  font-family: "LocatorWeb";
+}
+#la-roche.la-roche .es-obligations__single--1 {
+  background-image: url("assets/img/obligations-bg-1.png");
+}
+#la-roche.la-roche .es-obligations__single--2 {
+  background-image: url("assets/img/obligations-bg-2.png");
+}
+#la-roche.la-roche .es-obligations__single--3 {
+  background-image: url("assets/img/obligations-bg-3.png");
+}
+#la-roche.la-roche .es-obligations__single--4 {
+  background-image: url("assets/img/obligations-bg-4.png");
+}
+#la-roche.la-roche .es-obligations__text {
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 2px -1px 19px rgb(66, 68, 90);
+  padding: 10px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-family: "LocatorWeb";
+}
+#la-roche.la-roche .es-footer {
+  margin: 90px 0;
+  
+}
+#la-roche.la-roche .es-footer__text {
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+@media screen and (min-width: 600px) {
+  #la-roche.la-roche .es-results {
+    padding: 64px 0 64px 320px;
+    background-image: url("assets/img/mela-b3.png");
+    background-size: cover;
+    background-position: -100px;
+  }
+  #la-roche.la-roche .es-ingr__container {
+    justify-content: center;
+    gap: 10px;
+  }
+  #la-roche.la-roche .es-ingr {
+    background-image: url("assets/img/es-ing-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top -85px right -153px
+  }
+  #la-roche.la-roche .es-cross__bg {
+    background-image: url("assets/img/cross-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left -900px;
+  }
+  #la-roche.la-roche .es-features__logo {
+    max-width: 65%;
+  }
+  #la-roche.la-roche .es-obligations {
+    margin-top: 240px;
+    background-image: url("assets/img/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 700px) {
+  #la-roche.la-roche .es-cross__mainTitle {
+    margin-bottom: unset;
+  }
+  #la-roche.la-roche .es-obligations {
+    margin-top: 0;
+  }
+  #la-roche.la-roche .es-cross__single {
+    position: static;
+    width: 95vw;
+    text-align: left;
+    padding-right: 10px;
+  }
+  #la-roche.la-roche .es-cross__single img {
+    max-width: 20%;
+    height: auto;
+  }
+  #la-roche.la-roche .es-cross__name {
+    text-align: left;
+  }
+  #la-roche.la-roche .es-cross__single--2 {
+    margin: 110px 0 32px 0;
+    text-align: right;
+  }
+
+  #la-roche.la-roche .es-cross__single--3 {
+    margin-top: 110px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #la-roche.la-roche .es-kv {
+    background-position: 40% 80%;
+    background-size: 150%;
+  }
+  #la-roche.la-roche .es-kv__brand {
+    width: 200px;
+    left: 15%;
+  }
+  #la-roche.la-roche .es-kv__content {
+    margin-top: 50px;
+  }
+  #la-roche.la-roche .es-kv__title {
+    text-align: center;
+  }
+  #la-roche.la-roche .es-kv__claim {
+    text-align: center;
+  }
+  #la-roche.la-roche .es-use__content {
+    max-width: 100%;
+  }
+
+  #la-roche.la-roche .es-cross__number {
+    font-size: 130px;
+  }
+  #la-roche.la-roche .es-obligations__single{
+    height: 200px;
+  }
+
+  #la-roche.la-roche .es-obligations__title {
+    padding-top: 35px;
+  }
+
+  #la-roche.la-roche .es-effects {
+    background-size: cover;
+  }
+
+  #la-roche.la-roche .es-footer {
+    margin: 50px 0;
+  }
+}
+@media screen and (min-width: 700px) {
+  #la-roche.la-roche .es-use {
+    background-image: url("assets/img/bg-use-min.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    /*height: 500px; */
+  }
+  #la-roche.la-roche .es-use__content {
+    max-width: 58%;
+    padding: 16px 272px;
+    padding-right: 0;
+  }
+  #la-roche.la-roche .es-features {
+    background-image: url("assets/img/feat-ingr-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #la-roche.la-roche .es-features__content {
+    padding-left: 354px;
+  }
+  #la-roche.la-roche .es-effect {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #la-roche.la-roche .es-effect__list {
+    max-width: 45%;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-top: -60px;
+  }
+  #la-roche.la-roche .es-effect__image-wrap {
+    max-width: 45%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #la-roche.la-roche .es-effect__item {
+    margin: 0 auto;
+    max-width: 41ch;
+    min-width: auto;
+    margin-bottom: 40px;
+  }
+  #la-roche.la-roche .es-effect__item-description {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  #la-roche.la-roche .es-effect__disclaimer {
+    font-family: Roboto, sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+  }
+
+  #la-roche.la-roche .es-cross {
+    margin: 50px 0;
+    margin-top: 120px;
+    background-image: url("assets/img/bg-routine-min.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    min-height: 850px;
+  }
+
+  #la-roche.la-roche .es-cross__content--1 {
+    margin-top: -120px;
+    margin-left: 10px;
+  }
+  #la-roche.la-roche .es-cross__content--2 {
+    margin-top: 220px;
+    margin-right: 83px;
+  }
+  
+  #la-roche.la-roche .es-cross__content--3 {
+    margin-top: -177px;
+    margin-left: 26px;
+  }
+  #la-roche.la-roche .es-cross__desc {
+    max-width: 210px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  #la-roche.la-roche .es-cross__single--1 {
+    top: 44px;
+    left: 162px;
+  }
+  #la-roche.la-roche .es-cross__single--2 {
+    top: 370px;
+    right: -31px;
+  }
+  #la-roche.la-roche .es-cross__single--3 {
+    bottom: -203px;
+    left: 135px;
+  }
+  #la-roche.la-roche .es-cross__single--1 img {
+    height: 600px;
+  }
+  #la-roche.la-roche .es-cross__single--2 img {
+    height: 450px;
+  }
+  #la-roche.la-roche .es-cross__single--3 img {
+    height: 450px;
+  }
+}
+@media screen and (min-width: 800px) {
+  #la-roche.la-roche .es-features {
+    background-position: left;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #la-roche.la-roche .es-kv__title{
+    font-size: 28px;
+  }
+  #la-roche.la-roche .es-effects__title, #la-roche.la-roche .es-features__title, #la-roche.la-roche .es-ingr__title, #la-roche.la-roche .es-results__title, #la-roche.la-roche .es-effect__title, #la-roche.la-roche .es-use__title, #la-roche.la-roche .es-cross__mainTitle, #la-roche.la-roche .es-obligations__title {
+    font-size: 32px;
+  }
+
+  #la-roche.la-roche .es-effects {
+    height: auto;
+  }
+
+  #la-roche.la-roche .es-effect__image-wrap {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #es-effects__title-id{
+      font-size: 20px;
+  }
+  #la-roche.la-roche .es-ingr {
+    padding-bottom: 0;
+  }
+}
+@media screen and (min-width: 1098px) {
+  #la-roche.la-roche .es-kv {
+    padding-top: 0;
+    padding-right: 0;
+    justify-content: space-between;
+  }
+  #la-roche.la-roche .es-kv__content {
+    padding-right: 0;
+    margin-left: 15px;
+  }
+  #la-roche.la-roche .es-kv__title {
+    font-size: 38px;
+  }
+  #la-roche.la-roche .es-kv__text {
+    padding-right: 0;
+  }
+  #la-roche.la-roche .es-kv__packshot img {
+    max-width: 230px;
+  }
+  #la-roche.la-roche .es-kv__photo {
+    width: 530px;
+    margin-right: -1px;
+  }
+
+  #la-roche.la-roche .es-effect__title {
+    margin-bottom: 0;
+  }
+  #la-roche.la-roche .es-effects__title {
+    margin-bottom: 50px;
+    font-size: 40px;
+  }
+
+  #es-effects__title-id{
+    font-size: 20px;
+}
+  #la-roche.la-roche .es-results {
+    background-position: left;
+  }
+  #la-roche.la-roche .es-results {
+    padding: 77px 0 135px 720px;
+  }
+  #la-roche.la-roche .es-use__content {
+    max-width: 58%;
+    padding: 90px 590px;
+    padding-right: 0;
+  }
+  #la-roche.la-roche .es-features {
+    background-position: left;
+    height: 623px;
+  }
+  #la-roche.la-roche .es-features__content {
+    padding: 37px 0 64px 480px;
+    margin-top: -20px;
+  }
+  #la-roche.la-roche .es-features__description {
+    max-width: 433px;
+    margin: 0 auto;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 100;
+  }
+  #la-roche.la-roche .es-features__label-description {
+    display: block;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 10px 40px;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  #la-roche.la-roche .es-cross {
+    margin-top: 120px;
+  }
+  #la-roche.la-roche .es-cross__number {
+    font-size: 200px;
+    font-family: "LocatorWeb";
+  }
+  #la-roche.la-roche .es-cross__name {
+    margin-top: -20px;
+    margin-bottom: 10px;
+    font-size: 38px;
+  }
+  #la-roche.la-roche .es-cross__name-subtitle {
+    display: block;
+    font-size: 34px;
+    max-width: 16ch;
+    margin-top: 0;
+    padding-top: 0;
+    text-transform: uppercase;
+  }
+ 
+}
+
+@media screen and (max-width: 1179px) {
+  #la-roche.la-roche .es-kv {
+    justify-content: center;
+  }
+
+}
+@media screen and (min-width: 1200px) {
+  #la-roche.la-roche .es-use {
+    background-image: url("assets/img/bg-use-min.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+  #la-roche.la-roche .es-obligations__ctn {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+/*# sourceMappingURL=style.css.map */
+  </style>
+</head>
+
+<body>
+  <div id="la-roche" class="la-roche">
+    <div class="es-kv__header">
+      <img class="es-kv__brand" src="assets/img/la-roche-posay-logo.png" alt="La Roche Posay logo" />
+      <div class="es-kv__logo">
+        <img src="assets/img/logo_NR1_2022-2023_prod-01-min.png" alt="Deramtoloogide soovitus tunduliku naha korral" />
+      </div>
+    </div>
+    <div class="es-kv">
+      <div class="es-kv__content">
+        <div class="es-kv__text">
+          <p class="es-kv__title">
+            <strong>Mela B3 <br /></strong>
+            <span>KONTSENTREERITUD<br /> SEERUM<br /> PIGMENDILAIKUDE <br />
+              JA NENDE<br />
+              KORDUMISE VASTU
+            </span>
+          </p>
+        </div>
+      </div>
+      <div class="es-kv__packshot">
+        <img src="assets/img/product-min.png" alt="Mela B3 Serum" />
+      </div>
+      <img src="assets/img/kv-photo.png" alt="Värvimuutus, ebaühtlane värvus ja akne muutused" class="es-kv__photo" />
+    </div>
+
+    <div class="es-effects">
+      <p class="es-effects__title">
+        <strong>KLIINILISELT</strong><sup id="es-effects__title-id">(1)</sup>
+        <strong>TÕESTATUD TOIME</strong><br />
+        KÕIGIL NAHA FOTOTÜÜPIDEL:
+      </p>
+      <div class="es-effects__icons">
+        <div class="es-effects__single">
+          <img src="assets/img/tick-icon.png" alt="" />
+          <p class="es-effects__text">Ühtlustab nähtavalt nahatooni</p>
+        </div>
+
+        <div class="es-effects__single">
+          <img src="assets/img/tick-icon.png" alt="" />
+          <p class="es-effects__text">
+            Vähendab tõhusalt ka pikaajalisi
+            ja häirivaid pigmendilaike
+          </p>
+        </div>
+
+        <div class="es-effects__single">
+          <img src="assets/img/tick-icon.png" alt="" />
+          <p class="es-effects__text">
+            Vähendab nähtavalt pigmendilaikude hulka, intensiivsust<br />
+            ja suurust
+          </p>
+        </div>
+
+        <div class="es-effects__single">
+          <img src="assets/img/tick-icon.png" alt="" />
+          <p class="es-effects__text">
+            Hoiab ära pigmendilaikude taastekke, tagades pikaajalise tulemuse <sup>(2)</sup>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="es-features">
+      <div class="es-features__content">
+        <p class="es-features__title">
+          <strong>MURRANGULINE
+            TOIMEAINE</strong><br />
+          DERMATOLOOGIAS
+        </p>
+        <img class="es-features__logo" src="assets/img/melasyl-logo.png" alt="Melasyl logotyp" />
+        <p class="es-features__label-description">
+          18 AASTAT UURINGUID. <br />
+          100 000 UURITUD MOLEKULI.<br />
+          MITMEKORDSELT PATENDITUD.
+        </p>
+        <p class="es-features__description">
+          <strong>Melasyl™ püüab liigse melaniini kinni</strong> enne, kui see <br />
+          jätab nahale jäljed, <strong>tagades tugeva<br /> pigmentatsioonimuutuste-vastase toime.</strong>
+          Toimeaine<br />
+          Melasyl<sup>(™)</sup> toime on kinnitatud kliinilistes uuringutes ja<br /> võrdlusuuringus viie
+          võrdlustoimeainega.
+        </p>
+      </div>
+    </div>
+
+    <div class="es-ingr">
+      <p class="es-ingr__title">TOIMEAINED</p>
+
+      <div class="es-ingr__container">
+        <div class="es-ingr__single">
+          <div class="es-ingr__main es-ingr__main--1"></div>
+          <p class="es-ingr__desc">
+            Tugeva antioksüdantse ja põletikuvastase toimega, mis aitab pigmendilaike nähtavalt vähendada.
+          </p>
+        </div>
+
+        <div class="es-ingr__single">
+          <div class="es-ingr__main es-ingr__main--2"></div>
+          <p class="es-ingr__desc">
+            Tugevalt niisutava ja nahka
+            silendava toimega.
+          </p>
+        </div>
+
+        <div class="es-ingr__single">
+          <div class="es-ingr__main es-ingr__main--3"></div>
+          <p class="es-ingr__desc">
+            Hüdrolipiidikihi taastumist toetava toimega.
+          </p>
+        </div>
+
+        <div class="es-ingr__single">
+          <div class="es-ingr__main es-ingr__main--4"></div>
+          <p class="es-ingr__desc">
+            Looduslik merevetikaekstrakt, millel
+            on pigmendilaike vähendav toime.
+          </p>
+        </div>
+
+        <div class="es-ingr__single">
+          <div class="es-ingr__main es-ingr__main--5"></div>
+          <p class="es-ingr__desc">
+            Õrnalt kooriva, poore avava toimega.
+          </p>
+        </div>
+
+        <div class="es-ingr__single">
+          <div class="es-ingr__main es-ingr__main--6"></div>
+          <p class="es-ingr__desc">
+            Nahka heledamaks muutva, pehmendava ja siluva toimega.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="es-results">
+      <p class="es-results__title">
+        <strong>NÄIDUSTUSED</strong>
+      </p>
+      <div class="es-results__content">
+        <div class="es-results__single">
+          <p class="es-results__text">
+            <strong>PIKAAJALISED PIGMENDILAIGUD</strong>
+            sh melasma, põletikujärgsed, päikesest tingitud ja vanusega seotud pigmendilaigud
+          </p>
+        </div>
+        <div class="es-results__single">
+          <p class="es-results__text"><strong>AKNEJÄRGSED MUUTUSED</strong></p>
+        </div>
+        <div class="es-results__single">
+          <p class="es-results__text">
+            <strong>EBAÜHTLANE NAHATOON</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="es-effect">
+      <div class="es-effect__list">
+        <p class="es-effect__title">
+          <span>TÕHUSUS<br /></span> KATSETEGA <br />
+          TÕESTATUD
+        </p>
+        <div class="es-effect__items">
+          <div class="es-effect__item">
+            <p class="es-effect__item-description">
+              <span class="es-effect__item-title">85% HINNANGUL</span>
+              VÄHENDAB NÄHTAVALT PÜSIVAID PIGMENDILAIKE JUBA PÄRAST KAHTE KASUTUSKUUD
+              JA TAKISTAB NENDE KORDUMIST <sup>(2)</sup>
+            </p>
+          </div>
+
+          <div class="es-effect__item">
+            <p class="es-effect__item-description">
+              <span class="es-effect__item-title"> ÜHE TUNNI JOOKSUL</span>
+              PÄRAST NAHALE<br/>
+KANDMIST TUGEVDAB NAHA KAITSEBARJÄÄRI <sup>(3)</sup>
+            </p>
+          </div>
+
+          <div class="es-effect__item">
+            <p class="es-effect__item-description">
+              <span class="es-effect__item-title"> NELJA TUNNI JOOKSUL</span>
+              PÄRAST NAHALE KANDMIST NIISUTAB INTENSIIVSELT NAHKA <sup>(3)</sup><br/>
+              JA HOIAB SELLE NIISUTATUNA 24 H <sup>(3)</sup>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="es-effect__image-wrap">
+        <div class="es-effect__image-labels">
+          <p class="es-effect__before-title">ENNE</p>
+          <p class="es-effect__before-title">PÄRAST</p>
+        </div>
+        <img class="es-effect__image" src="assets/img/before-after.png" alt="" />
+        <p class="es-effect__disclaimer">
+          <sup>*</sup>Keskmine tulemus pärast Mela B3 seerumi kasutamist, saadud 56 päeva pärast kasutamist. Tulemused võivad erineda sõltuvalt naha algseisundist.
+
+          <br /><sup>**</sup>Keskmine tulemus pärast Mela B3 seerumi kasutamist, saadud 84 päeva pärast kasutamist. Tulemused võivad erineda sõltuvalt naha algseisundist.
+        </p>
+      </div>
+    </div>
+
+    <div class="es-use">
+      <div class="es-use__content">
+        <p class="es-use__title">KASUTAMINE</p>
+        <ol>
+          <li>Kandke seerum MELA B3 puhastatud näonahale. Seerum sobib kõikidele nahatüüpidele, sealhulgas rasusele, aknekalduvusega ja tundlikule nahale.</li>
+          <li>
+            Tõhusaks võitlemiseks pigmendilaikudega ärge unustage igapäevast UVA- ja UVB-kaitset.
+          </li>
+          <li>
+            Optimaalse toime saavutamiseks kandke hommikul ja õhtul näole, kaelale ja dekolteepiirkonnale.    
+          </li>
+          <li>
+            Katsetatud ka peopesanahal. Vältige otsest kokkupuudet silmadega.
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="es-cross__bg">
+      <div class="es-cross__mainTitle">
+        <p>
+          <strong>Tõhus hooldus hüperpigmentatsiooni<br /> ja selle kordumise vastu</strong>
+        </p>
+      </div>
+      <div class="es-cross">
+        <div class="es-cross__single es-cross__single--1">
+          <img src="assets/img/cross-1.png" alt="Mela B3 gel" />
+          <div class="es-cross__content es-cross__content--1">
+            <p class="es-cross__number">1</p>
+            <p class="es-cross__name">
+              <strong>MeLA B3</strong> <br />
+              <span class="es-cross__name-subtitle">MIKROKOORIV PESUGEEL</span>
+            </p>
+            <p class="es-cross__desc">
+              Tänu õrnatoimelistele<br /> koorivatele osakestele<br /> puhastab nahka ja silendab<br /> kohe märgatavalt selle<br /> struktuuri.
+            </p>
+            <a href="https://www.benu.ee/tooted/ilu-ja-nahahooldus/naohooldus/naopuhastus/la-roche-posay-mela-b3-pesugeel-mikrokooriv-200ml" target="_blank" class="es-cross__link">TUTVU</a>
+          </div>
+        </div>
+
+        <div class="es-cross__single es-cross__single--2">
+          <div class="es-cross__content es-cross__content--2">
+            <p class="es-cross__number">2</p>
+            <p class="es-cross__name">
+              <strong>MELA B3</strong> <br /><span class="es-cross__name-subtitle">KONTSENTREERITUD SEERUM PIGMENDILAIKUDE VASTU</span>
+            </p>
+            <p class="es-cross__desc">
+              Kontsentreeritud seerum võitleb tõhusalt pigmendilaikude vastu ja takistab nende kordumist4.<sup>4</sup>.
+            </p>
+            <a href="https://www.benu.ee/tooted/ilu-ja-nahahooldus/naohooldus/la-roche-posay-mela-b3-seerum-pigmendilaikudele-30ml" target="_blank" class="es-cross__link">TUTVU</a>
+          </div>
+          <img src="assets/img/cross-2.png" alt="Mela B3 serum" />
+        </div>
+
+        <div class="es-cross__single es-cross__single--3">
+          <img src="assets/img/cross-3.png" alt="anthelios" />
+          <div class="es-cross__content es-cross__content--3">
+            <p class="es-cross__number">3</p>
+            <p class="es-cross__name">
+              <strong>anthelios </strong> <br />
+              <span class="es-cross__name-subtitle">
+                MÄRKAMATU VEDELIK <strong>UV MUNE SPF 50+</strong>
+              </span>
+            </p>
+            <p class="es-cross__desc">
+              Pakub kõige tõhusamat kaitset kõige kahjulikuma UVA-kiirguse ja väga tõhusat kaitset UVB-kiirguse eest. 
+            </p>
+            <a href="https://www.benu.ee/tooted/ilu-ja-nahahooldus/paikesekaitse/la-roche-posay-anthelios-paikesekaitseemulsioon-spf50-naole-50ml" target="_blank" class="es-cross__link">TUTVU</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="es-obligations">
+      <p class="es-obligations__title">
+        <strong>la roche-posay</strong> LUBADUSED
+      </p>
+      <div class="es-obligations__ctn">
+        <div class="es-obligations__single es-obligations__single--1">
+          <p class="es-obligations__text">
+            100% TOODETEST ON TESTITUD  <br />
+            ALLERGIAOHUTUSE SEISUKOHAST 
+          </p>
+        </div>
+        <div class="es-obligations__single es-obligations__single--2">
+          <p class="es-obligations__text">
+            AINULT OLULISED AKTIIVSED KOOSTISOSAD <br />
+            OPTIMAALSES KONTSENTRATSIOONIS
+          </p>
+        </div>
+      </div>
+
+      <div class="es-obligations__ctn">
+        <div class="es-obligations__single es-obligations__single--3">
+          <p class="es-obligations__text">AJATUD KOOSTISED</p>
+        </div>
+        <div class="es-obligations__single es-obligations__single--4">
+          <p class="es-obligations__text">
+            TESTITUD VÄGA TUNDLIKUL NAHAL
+          </p>
+        </div>
+      </div>
+
+      <div class="es-footer">
+        <p class="es-footer__text">
+          1. Kliiniline uuring 73 naisega, kaheksa nädalat kasutust.
+        </p>
+        <p class="es-footer__text">
+          2. Kliiniline katse 73 naisega, kaks nädalat pausi pärast kaheksanädalast kasutamist.
+        </p>
+        <p class="es-footer__text">
+          3. Aparaadikatse.
+        </p>
+        <p class="es-footer__text">
+          4. Tarbijakatse (enesehindamine) kliinilise uuringu käigus, 73 naist pärast kaheksanädalast kasutamist.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
